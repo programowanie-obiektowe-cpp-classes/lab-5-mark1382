@@ -12,7 +12,7 @@ std::vector< char > foo(std::list< Human >& people)
     result.reserve(people.size()); // Rezerwacja miejsca w wektorze dla lepszej wydajności
 
     // Iterujemy przez listę, modyfikujemy obiekty i budujemy wynikowy wektor
-    for (auto& person : people) {
+    for (auto& people.begin() : people.end()) {
         person.birthday(); // Inkrementacja wieku
         result.push_back(person.isMonster() ? 'y' : 'n'); // 'y' jeśli lubi psy/koty, 'n' jeśli nie
     }
